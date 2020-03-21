@@ -1,0 +1,46 @@
+body{
+    padding-top: 0px;
+}
+
+body > * {
+    margin:0;
+}
+
+.grand{
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 100px;
+    position: relative;
+}
+
+.parent{
+    width: 600px;
+    height: 600px;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+#child1{
+    width: 160px;
+    height: 160px;
+    background-color: orange;
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000000;
+}
+
+#child2{
+    width: 250px;
+    height: 250px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+
+}
